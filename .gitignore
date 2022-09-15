@@ -1,0 +1,18 @@
+Function Main
+    Declare Integer size
+    
+    Input size
+    Declare Integer couter
+    
+    Assign Couter = 0
+    Declare Integer Array fib[size]
+    
+    For Couter = 0 to size-1 step 1    
+        If Couter= 0 or couter =1
+            Assign fib[couter] = couter
+        Else
+            Assign fib[couter] = fib[couter-2]+fib[couter-1]
+        End
+        Output fib[couter]
+    End
+End
